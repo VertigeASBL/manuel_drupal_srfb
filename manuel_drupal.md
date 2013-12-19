@@ -1,15 +1,16 @@
-# Manuel Utilisateur Drupal
+# Manuel du site de la SRFB
 
-Drupal est un système de publication pour le web. C'est un programme,
-ou application web, utilisé pour gérer le contenu d'un site web. Ce
-manuel vous présente les bases de l'utilisation de ce logiciel pour
-gérer le contenu de votre site web.
+Le site de la SRFB est fonctionne avec Drupal. Drupal est un système
+de publication pour le web. C'est un programme, ou application web,
+utilisé pour gérer le contenu d'un site web. Ce manuel vous présente
+les bases de l'utilisation de ce logiciel pour gérer le contenu de
+votre site web.
 
 Même si la gestion des contenus avec Drupal est pensée pour être la
 plus simple et intuitive possible, il n'en reste pas moins un logiciel
-relativement complexe. Il est impossible de faire le tour de ses
-possibilités ici, mais pour plus d'informations on peux se référer à
-la [documentation en ligne](https://drupal.org/documentation) (en
+relativement complexe. Il est serait trop long d'en faire le tour ici,
+mais pour plus d'informations on peux se référer à la
+[documentation en ligne](https://drupal.org/documentation) (en
 anglais).
 
 ## Le contenu
@@ -112,18 +113,171 @@ le formulaire d'édition des articles :
     SRFB. Ce champ doit toujours être sur la valeur "Full HTML (with
     editor)"
 
-* **Image :** Permet de télé-verser une image, qui sera affichée à côté
-    de l'article. On peux associer cette image à un texte alternatif
-    qui sera affiché dans le cas où l'image est absente. Il est
-    important de saisir un texte alternatif pour chaque image pour les
-    moteurs de recherche, ainsi que pour les personnes malvoyantes qui
-    utilisent un lecteur d'écran.
+* **Image :** Permet de télé-verser une image, qui sera affichée à
+    côté de l'article. On peux associer cette image à un texte
+    alternatif qui sera affiché dans le cas où l'image est absente. Il
+    est important de saisir un texte alternatif pour chaque image pour
+    les moteurs de recherche, ainsi que pour les personnes malvoyantes
+    qui utilisent un lecteur d'écran.
 
 * En bas du formulaire d'édition se trouvent toute une série de
   paramètres concernant les menus, commentaires, etc. Ces paramètres
   seront décrits plus tard.
 
 * Pour terminer, il y a des boutons pour sauvegarder ou pré-visualiser
-  l'article. Cliquer sur l'un de ces boutons vous emmènera vers une page
-  montrant l'article nouvellement créé.
+  l'article. Cliquer sur l'un de ces boutons vous emmènera vers une
+  page montrant l'article nouvellement créé.
 
+### Édition des contenus et gestion des versions
+
+Une page d'article, tout comme les pages des autres type de contenus,
+possèdent deux onglets : *voir* et *modifier*. En cliquant l'onglet
+*modifier*, vous pouvez ouvrir à nouveau le formulaire d'édition de
+contenu, qui est identique à celui de création de contenu, à
+l'exception de deux choses. Le formulaire est pré-rempli avec le
+contenu de l'article en question, et il y a un bouton supplémentaire à
+côté des boutons *sauvegarder* et *pré-visualiser* : *supprimer*.
+
+Parmi les paramètres en bas de page, vous trouvez la partie
+*Informations sur les révisions*.
+
+![Les paramètres de révision](img/revisions.png)
+
+Cocher l'option *Créer une nouvelle révision* dit à Drupal d'archiver
+la version actuelle du contenu avant de faire une modification. Les
+différentes versions seront affichées dans un onglet *Révisions*. Un
+clic sur cet onglet permet de voir les différentes versions
+enregistrées, de revenir à une version antérieure ou si nécessaire
+d'en effacer. Revenir à une version antérieure n'efface rien, cela
+place simplement une nouvelle version qui est une copie de la version
+à laquelle on souhaite revenir.
+
+### Autres paramètres des contenus
+
+À part les paramètres des révisions, la dernière partie du formulaire
+d'édition de contenu contient d'autres onglets avec d'autres
+paramètres :
+
+* **Paramètres du menu :** Donne la possibilité d'ajouter un élément
+    de menu pointant vers le contenu en question.
+
+* **Balises meta :** Permet d'éditer les méta-données qui seront
+    présentées aux moteurs de recherche. Ces valeurs sont pré-remplies
+    par défaut, il n'est donc à priori pas nécessaire de remplir ces
+    valeurs dans tous les cas.
+
+* **Paramètres des chemins d'URL :** Donne la possibilité de donner
+    une adresse précise à la page affichant le contenu en question. Si
+    l'on ne spécifie rien, le système construira automatiquement une
+    adresse à partir du titre du contenu.
+
+* **Paramètres des commentaires :** Permet de gérer des fils de
+    commentaires pour ce contenu. Cette fonction n'a pas été
+    implémentée sur le site de la SRFB, éditer ces paramètres n'aura
+    donc aucun effet.
+
+* **Information de publication :** Ceci montre quel utilisateur a créé
+    le contenu en question, et quand. Ces deux informations peuvent
+    être éditées si nécessaire.
+
+* **Options de publication :** Ceci donne des options quant à la façon
+    dont le contenu sera affiché ou non sur le site :
+    * **Publié :** Si cette case est cochée, le contenu sera visible
+        par tous les utilisateurs du site. Dans le cas contraire,
+        seuls les administrateurs du site peuvent voir le contenu.
+    * **Promu en page d'accueil :** Cette option n'est pas utilisée
+        sur le site de la SRFB, sa valeur n'aura aucun effet.
+    * **Épinglé en haut des listes :** Cette option fait remonter le
+        contenu en question en têtes des listes.
+
+### L'éditeur de texte avancé
+
+Le champ "body" des articles, ainsi que d'autres champs d'autres types
+de contenu utilisent un éditeur de texte avancé, qui permet de mettre
+en page les contenus. Voici une listes des différents boutons de cet
+éditeur ainsi que des descriptions de leurs fonctions, de gauche à
+droite :
+
+![L'éditeur de texte avancé](img/editeur.png)
+
+* **Gras et italique :** Ces boutons appliquent les styles gras et
+    italiques à la portion de texte sélectionnée.
+* **Aligner à gauche, centrer, aligner à droite et justifié :**
+    Permettent de gérer l'alignement de la portion de texte
+    sélectionnée.
+* **Listes à puces :** Permet de créer des listes à puces
+* **Diminuer/Augmenter le retrait :** Permet de décaler une portion de
+    texte vers la gauche ou la droite.
+* **Annuler/Rétablir :** Permet d'annuler ou de rétablir la dernière
+    action effectuée.
+* **Lien/Supprimer le lien :** Permet de créer/supprimer des liens
+    hypertextes. Cliquer sur le bouton *lien* ouvre un boîte de
+    dialogue qui permet de choisir l'adresse vers laquelle le lien
+    pointera. Le paramètre *Type de lien* offre trois options :
+    * **URL** pour créer un lien hypertexte vers une page autre que la
+        page courante.
+    * **Ancre** pour créer un lien vers une ancre de la page en
+        cours. Le formulaire propose alors une liste des ancres
+        existant dans la page. Il faut donc commencer par créer une
+        ancre, et lui assigner un lien.
+    * **Email** pour créer un lien vers une adresse email. Ce lien
+        ouvrira le logiciel de mail par défaut chez l'utilisateur en
+        pré-remplissant le destinataire avec l'adresse spécifiée dans
+        le lien. L'onglet cible permet de forcer le lien à s'ouvrir
+        dans une nouvelle fenêtre.
+* **Ancre** permet de créer une ancre. Un ancre est un point de repère
+    à l'intérieur du texte. On peux créer des liens qui pointent vers
+    des ancres pour permettre au visiteur de se repérer plus
+    facilement dans des pages très longues. On peux par exemple placer
+    des ancres sur les titres des documents et placer des liens vers
+    ces ancres sur les entrées d'une table des matières.
+* **Image** permet de gérer les propriétés des images insérées dans le
+    texte (mais ne permet pas d'en insérer, il faut utiliser le bouton
+    *Ajouter un média* pour ça). Permet d'ajouter un texte de
+    remplacement (cf. partie image dans la section "création de
+    contenu").  On peut aussi y redimensionner une image, et définir
+    son alignement par rapport au texte.  L'onglet *lien* permet à
+    l'image de fonctionner comme lien.
+* **Couleur de texte** permet de donner une couleur au texte
+    sélectionné.
+* **Source** permet d'afficher le code HTML généré par l'éditeur. Cela
+    permet aussi d'écrire directement le contenu en langage HTML. Même
+    pour les utilisateurs qui ne connaissent pas le langage HTML,
+    cette fonction permet d'insérer des bouts de code trouvés sur des
+    sites permettant d'inclure du contenu, comme par exemple les sites
+    de partage de vidéo.
+* **Copier, Couper, Coller** fonctionnent comme dans n'importe quel
+    autre programme. La fonction *coller depuis Word* permet de coller
+    du texte que l'on a copié dans un document Word en préservant la
+    mise en forme autant que possible. Parfois on ne souhaite pas
+    garder le formatage mais copier le texte de la façon la plus
+    simple possible. On peut alors utiliser le bouton *coller sans
+    mise en forme*.
+* **Afficher les blocs** permet d'afficher la structures des blocs
+    HTML générés par l'éditeur.
+* **Les menus formats et tailles de polices** permettent de choisir le
+    format du texte. Il faut autant que possible utiliser les formats
+    prédéfinis pour respecter la charte graphique du site. De plus,
+    contrairement à l'option taille de police, le format du texte est
+    utilisé par les moteurs de recherche pour deviner l'importance du
+    texte, p.ex en donnant plus d'importance aux titres.
+* **Tableau** permet de créer un tableau, ou d'éditer un tableau
+    existant.
+* **Tout sélectionner** sélectionne tout le texte…
+* **Trouver/remplacer** permettent de faire des recherches et de
+    remplacer automatiquement du texte dans le contenu.
+* **Flash/IFrame** permettent d'insérer du contenu Flash ou des
+    IFrame. En règle générale, il est préférable de d'insérer
+    directement le code HTML avec la fonction *Source* quand on
+    souhaite insérer du contenu fourni par un tiers.
+* **Ajouter un média** permet d'insérer un image ou un
+    document. Propose trois options différentes pour le
+    faire. L'option *Transférer* permet d'envoyer sur le serveur un
+    fichier qui se trouve sur votre ordinateur. L'option *Web* permet
+    d'inclure du contenu du site *youtube*, et *Bibliothèque*
+    d'inclure un document déjà présent sur le site, par exemple parce
+    qu'il est utilisé dans un autre contenu.
+* **Séparer l'accroche et le corps du contenu** propose une façon de
+    définir le résumé du contenu (cf. section "créer du contenu"). Ce
+    bouton insère une barre horizontale dans le contenu. Le résumé est
+    alors défini par le texte précédant cette barre.
