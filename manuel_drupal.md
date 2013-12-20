@@ -1,6 +1,7 @@
-# Manuel du site de la SRFB
+% Manuel du site de la SRFB
+% Vertige ASBL
 
-Le site de la SRFB est fonctionne avec Drupal. Drupal est un système
+Le site de la SRFB est basé sur le logiciel Drupal. Drupal est un système
 de publication pour le web. C'est un programme, ou application web,
 utilisé pour gérer le contenu d'un site web. Ce manuel vous présente
 les bases de l'utilisation de ce logiciel pour gérer le contenu de
@@ -10,10 +11,10 @@ Même si la gestion des contenus avec Drupal est pensée pour être la
 plus simple et intuitive possible, il n'en reste pas moins un logiciel
 relativement complexe. Il est serait trop long d'en faire le tour ici,
 mais pour plus d'informations on peux se référer à la
-[documentation en ligne](https://drupal.org/documentation) (en
+documentation en ligne (<https://drupal.org/documentation>, en
 anglais).
 
-## Le contenu
+# Le contenu
 
 Les éléments de contenus dans Drupal peuvent être de toutes sortes :
 article de blog, livre, évènement, galerie d'images etc. Ces contenus
@@ -29,7 +30,7 @@ contenu, en cliquant sur le lien "Contenu" dans le menu
 d'administration. Cette page affiche une liste des contenus déjà
 encodés sur le site :
 
-![La page "Contenu"](img/page_contenu.png)
+![La page "Contenu"](img/page_contenu.png)\ 
 
 Le site de la SRFB utilise les types de contenu suivants :
 
@@ -75,17 +76,17 @@ Le site de la SRFB utilise les types de contenu suivants :
 * **Évènement :** Permet de créer des évènements, qui seront alors
     automatiquement repris dans l'agenda du site.
 
-### Créer du contenu
+## Créer du contenu
 
-On peux créer de nouveau contenus en cliquant sur le lien `Contenu ->
-Ajouter du contenu` du menu d'administration. Vous devez alors choisir
+On peux créer de nouveau contenus en cliquant sur le lien "Contenu ->
+Ajouter du contenu" du menu d'administration. Vous devez alors choisir
 le type de contenu que vous souhaitez utiliser, et vous serez ensuite
 dirigés sur le formulaire d'édition du contenu. Ce formulaire est
 relativement similaire d'un type de contenu à un autre. Nous allons
 prendre comme exemple le type de contenu "Article", mais ce qui est
 dit ici est transposable aux autres types de contenu.
 
-![Le formulaire d'édition d'articles](img/edition_article.png)
+![Le formulaire d'édition d'articles](img/edition_article.png)\ 
 
 Voici une description des différents champs d'édition disponible dans
 le formulaire d'édition des articles :
@@ -128,7 +129,7 @@ le formulaire d'édition des articles :
   l'article. Cliquer sur l'un de ces boutons vous emmènera vers une
   page montrant l'article nouvellement créé.
 
-### Édition des contenus et gestion des versions
+## Édition des contenus et gestion des versions
 
 Une page d'article, tout comme les pages des autres type de contenus,
 possèdent deux onglets : *voir* et *modifier*. En cliquant l'onglet
@@ -141,7 +142,7 @@ côté des boutons *sauvegarder* et *pré-visualiser* : *supprimer*.
 Parmi les paramètres en bas de page, vous trouvez la partie
 *Informations sur les révisions*.
 
-![Les paramètres de révision](img/revisions.png)
+![Les paramètres de révision](img/revisions.png)\ 
 
 Cocher l'option *Créer une nouvelle révision* dit à Drupal d'archiver
 la version actuelle du contenu avant de faire une modification. Les
@@ -152,7 +153,7 @@ d'en effacer. Revenir à une version antérieure n'efface rien, cela
 place simplement une nouvelle version qui est une copie de la version
 à laquelle on souhaite revenir.
 
-### Autres paramètres des contenus
+## Autres paramètres des contenus
 
 À part les paramètres des révisions, la dernière partie du formulaire
 d'édition de contenu contient d'autres onglets avec d'autres
@@ -161,7 +162,7 @@ paramètres :
 * **Paramètres du menu :** Donne la possibilité d'ajouter un élément
     de menu pointant vers le contenu en question.
 
-* **Balises meta :** Permet d'éditer les méta-données qui seront
+* **Balises méta :** Permet d'éditer les méta-données qui seront
     présentées aux moteurs de recherche. Ces valeurs sont pré-remplies
     par défaut, il n'est donc à priori pas nécessaire de remplir ces
     valeurs dans tous les cas.
@@ -190,7 +191,7 @@ paramètres :
     * **Épinglé en haut des listes :** Cette option fait remonter le
         contenu en question en têtes des listes.
 
-### L'éditeur de texte avancé
+## L'éditeur de texte avancé
 
 Le champ "body" des articles, ainsi que d'autres champs d'autres types
 de contenu utilisent un éditeur de texte avancé, qui permet de mettre
@@ -198,7 +199,7 @@ en page les contenus. Voici une listes des différents boutons de cet
 éditeur ainsi que des descriptions de leurs fonctions, de gauche à
 droite :
 
-![L'éditeur de texte avancé](img/editeur.png)
+![L'éditeur de texte avancé](img/editeur.png)\ 
 
 * **Gras et italique :** Ces boutons appliquent les styles gras et
     italiques à la portion de texte sélectionnée.
@@ -260,7 +261,7 @@ droite :
     prédéfinis pour respecter la charte graphique du site. De plus,
     contrairement à l'option taille de police, le format du texte est
     utilisé par les moteurs de recherche pour deviner l'importance du
-    texte, p.ex en donnant plus d'importance aux titres.
+    texte, par exemple en donnant plus d'importance aux titres.
 * **Tableau** permet de créer un tableau, ou d'éditer un tableau
     existant.
 * **Tout sélectionner** sélectionne tout le texte…
@@ -269,7 +270,7 @@ droite :
 * **Flash/IFrame** permettent d'insérer du contenu Flash ou des
     IFrame. En règle générale, il est préférable de d'insérer
     directement le code HTML avec la fonction *Source* quand on
-    souhaite insérer du contenu fourni par un tiers.
+    souhaite insérer du contenu fourni par un site tiers.
 * **Ajouter un média** permet d'insérer un image ou un
     document. Propose trois options différentes pour le
     faire. L'option *Transférer* permet d'envoyer sur le serveur un
@@ -281,3 +282,87 @@ droite :
     définir le résumé du contenu (cf. section "créer du contenu"). Ce
     bouton insère une barre horizontale dans le contenu. Le résumé est
     alors défini par le texte précédant cette barre.
+
+# Utilisateurs et permissions
+
+Cette section explique comment gérer les comptes utilisateurs du site,
+les créer et décider ce qu'ils ont l'autorisation de faire.
+
+Le lien *Personnes* de la barre d'administration vous emmène vers une
+page listant tout les comptes utilisateurs enregistrés sur votre
+site. Cette page ressemble beaucoup à celle qui liste l'ensemble des
+contenus. Elle permet de filtrer les utilisateurs, et de les éditer en
+masse.
+
+![La page "Personnes"](img/personnes.png)\ 
+
+Au sommet de la page, vous trouvez un lien *Ajouter un utilisateur*,
+que vous pouvez utiliser pour ajouter de nouveaux utilisateurs. Le
+formulaire pour créer des comptes utilisateurs est très similaire au
+formulaire qui permet d'éditer un utilisateur existant :
+
+* **Nom d'utilisateur :** Le nom du compte utilisateur. Il n'est pas
+    possible d'avoir deux comptes utilisateur avec le même nom.
+* **Adresse de courriel :** L'adresse de courriel de
+    l'utilisateur. Cet adresse est utilisée par la fonction "mot de
+    passe oublié", il donc important que cette adresse soit
+    exacte. Tout comme pour le nom d'utilisateur, cette adresse doit
+    être unique.
+* **Mot de passe/confirmer mot de passe :** Le mot de passe, demandé
+    deux fois pour éviter les fautes de frappe. Drupal ne peux pas
+    récupérer les mots de passes existants des utilisateurs car il
+    sont cryptés avant d'être stockés. Si vous saisissez un mot de
+    passe trop court ou trop simple, Drupal vous avertira mais ne vous
+    empêchera pas de l'utiliser.
+* **Statut :** Les utilisateurs dont le statut est *bloqué* ne peuvent
+    pas se connecter au site.
+* **Rôles :** Montre ou modifie les *rôles* de l'utilisateur (plus de
+    détails sur les rôles dans la prochaine section). Tous les
+    utilisateurs ont automatiquement le rôle d'"utilisateur
+    authentifié" à partir du moment où il se connectent au site avec
+    leur login/mots de passe.
+* **Paramètres des courriels :** Permet de choisir le format des
+    emails automatiques.
+* **Paramètres de langue :** La langue par défaut pour cet utilisateur.
+* **Image :** Permet de télé-verser et associer une image à ce compte
+    utilisateur.
+* **Premier plan administratif :** Par défaut, les pages
+    d'administration de Drupal s'affichent par-dessus le site
+    public. Cette option permet désactiver ceci pour ce compte
+    utilisateur.
+* **Paramètres régionaux :** Réglage du fuseau horaire de l'utilisateur.
+* **Balise Méta :** Permet d'éditer les méta-données qui seront
+    présentées aux moteurs de recherche sur la page de cet
+    utilisateur. Ces valeurs sont pré-remplies par défaut, il n'est
+    donc à priori pas nécessaire de remplir ces valeurs dans tous les
+    cas.
+
+## Rôles et permissions
+
+Le site de la SRFB utilise 5 rôles différents :
+
+* **Utilisateur anonyme :** Ce rôle est attribué automatiquement à
+    tous les visiteurs du site. Il n'ont presque aucun droits, à part
+    celui de voir le site.
+* **Utilisateur authentifié :** Ce rôle est attribué automatiquement
+    aux visiteurs qui se sont connecté avec un login/mot de passe. En
+    plus du droit de voir le site, il peuvent remplir les formulaires
+    sans passer par les captchas, voir leurs propres factures.
+* **Gestionnaire Boutique :** Donnez ce rôle aux personnes qui doivent
+    gérer la boutique en ligne. Ces utilisateurs peuvent :
+    * Accéder au menu d'administration.
+    * Créer, modifier et supprimer les contenus de type "Livre" et
+      "Produit".
+    * Gérer les clients, les commandes, les factures et administrer la
+      boutique.
+* **Éditeur :** Donnez ce rôle aux personnes qui vont participer au
+    contenu éditorial du site. Ces utilisateurs peuvent créer, éditer
+    et modifier tous les types de contenus, et ont accès à tous les
+    paramètres de la boutique. Ce rôle devrait être suffisant pour les
+    administrateurs non techniques du site.
+* **Administrateur :** Donnez ce rôle aux personnes qui vont
+    administrer le site du point de vue technique. Ce rôle permet de
+    modifier le comportement du site en profondeur, ce qui peut être
+    dangereux. Il ne devrait être attribué qu'à un nombre limité de
+    personnes de confiance. De grand pouvoirs impliquent de grandes
+    responsabilités !
