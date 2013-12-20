@@ -92,7 +92,7 @@ Voici une description des différents champs d'édition disponible dans
 le formulaire d'édition des articles :
 
 * **Titre :** Le titre de l'article. Il sera visible en haut de la
-    page de l'article sur le site. Il sera également le titre affiché
+    page de l'article sur le site. Il sera également affiché
     dans le barre de titre du navigateur.
 
 * **Tags :** Ce champ permet d'associer un ou plusieurs mots-clés à
