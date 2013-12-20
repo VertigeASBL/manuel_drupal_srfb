@@ -406,4 +406,94 @@ Ce formulaire permet d'éditer différentes propriétés du bloc :
   * **Rôles :** Permet de ne montrer le bloc qu'aux utilisateurs ayant un
     rôle donné.
   * **Utilisateurs :** Activer cette option permet aux utilisateurs du
-    site de décider eux-même si le bloc doit être affiché ou non.
+    site de décider eux-mêmes si le bloc doit être affiché ou non.
+
+# Les menus
+
+Par défaut, le contenu sur un site Drupal ne suit aucune structure en
+particulier. Quand on crée un nouveau contenu, on ne décide pas *où*
+celui-ci doit apparaître.
+
+La façon la plus directe de structurer les contenus du site est
+d'utiliser les *menus*, qui sont des liens organisé selon une
+structure arborescente.
+
+Le site de la SRFB utilise deux menus, qui sont chacun décliné dans
+les trois langues : Le "menu de gauche" et le "menu principal".
+
+![La liste des menus du site de la SRFB](img/menus.png)
+
+Comme pour les autres tâches d'administration, il y a une page qui
+permet de gérer les menus du site globalement : la page "Structure
+$\rightarrow$ Menus". Cette page présente une liste des différents
+menus du site. Chaque menu propose trois options :
+
+* **lister les liens :** Affiche un liste des liens du menu en
+    question.
+* **modifier le menu :** Permet d'éditer le nom et la description du
+    menu lui-même (et non des liens qu'il contient). On peut aussi
+    supprimer des menus existants.
+* **ajouter un lien :** Affiche le formulaire d'ajout de lien.
+
+Une alternative simple et rapide pour créer des liens dans un menu est
+d'utiliser l'option *menus* des formulaires d'édition de contenu.
+
+# Multilinguisme
+
+Drupal propose toutes une série de fonctions pour créer un site
+multilingue. Tous les éléments affichés sur une page peuvent être
+traduit en plusieurs langues. Le site de la SRFB permet de gérer le
+français, le néerlandais et l'anglais.
+
+## Traduire les contenus
+
+Sur le site de la SRFB, on ne peux pas traduire directement le
+contenu. Si l'on souhaite qu'un article apparaisse en français et en
+néerlandais, on doit créer deux articles : un en français et l'autre
+en néerlandais. Chaque formulaire d'édition de contenu propose un
+champ *langue*, qu'on peut utiliser ce champ pour spécifier la langue
+du contenu. Si ce champ prend la valeur *Indépendant de la langue*, le
+contenu s'affichera pour toutes les langues.
+
+## Traduire les menus
+
+La traduction des menus fonctionne de façon similaire. Pour afficher
+un menu dans une autre langue, on crée un autre menu qui ne contiendra
+que des liens vers des contenus dans cette langue.
+
+Le formulaire d'édition de menu possède une section *options
+multilingue*. Pour les menus du site de la SRFB, l'option *mode de
+traduction* doit être réglée sur *Langue fixe*. On peux alors choisir
+la langue avec le champ langue, qui fonctionne de la même façon pour
+les menus que pour les contenus.
+
+## Traduire les blocs
+
+Le comportement des blocs est un peu différent des contenus et des
+menus en ce qui concerne le multilinguisme. Chaque bloc peut être
+affiché dans plusieurs langues, il n'est donc pas nécessaire de créer
+un nouveau bloc pour ajouter une langue.
+
+Le formulaire d'édition des blocs propose une section *Langues* dans
+les *Paramètres de visibilité*. Pour rendre un bloc traduisible, il
+suffit de cocher la case *Rendre ce bloc traduisible*. Après avoir
+enregistré ce paramètre, le formulaire proposera un onglet *Traduire*
+au sommet de la page. On pourra alors éditer les traductions de
+du bloc depuis cet onglet.
+
+## Autres éléments
+
+Certains (rares) élément du site ne sont pas traduisibles avec les
+méthodes décrites ci-dessus. C'est par exemple le cas du titre du bloc
+*Toutes les actualités* de la page d'accueil.
+Drupal propose une solution pour ces éléments qui ne sont ni du
+contenu, ni des menus, ni des blocs : il faut se rendre sur la page
+"Configuration $\rightarrow$ Régionalisation et langue $\rightarrow$
+Traduire l'interface $\rightarrow$ Traduire".
+
+![La page de traduction de l'interface](img/traduction_interface.png)
+
+Cette page permet de retrouver une chaîne de caractères et de la
+traduire. Dans le cas où l'on souhaite traduire le titre *Toutes les
+actualités*, il suffit de trouver cette chaîne de caractères dans la
+liste et de l'éditer.
