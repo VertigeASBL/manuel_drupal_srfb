@@ -30,7 +30,7 @@ contenu, en cliquant sur le lien "Contenu" dans le menu
 d'administration. Cette page affiche une liste des contenus déjà
 encodés sur le site :
 
-![La page "Contenu"](img/page_contenu.png)\ 
+![La page "Contenu"](img/page_contenu.png)
 
 Le site de la SRFB utilise les types de contenu suivants :
 
@@ -78,15 +78,15 @@ Le site de la SRFB utilise les types de contenu suivants :
 
 ## Créer du contenu
 
-On peux créer de nouveau contenus en cliquant sur le lien "Contenu ->
-Ajouter du contenu" du menu d'administration. Vous devez alors choisir
-le type de contenu que vous souhaitez utiliser, et vous serez ensuite
-dirigés sur le formulaire d'édition du contenu. Ce formulaire est
-relativement similaire d'un type de contenu à un autre. Nous allons
-prendre comme exemple le type de contenu "Article", mais ce qui est
-dit ici est transposable aux autres types de contenu.
+On peux créer de nouveau contenus en cliquant sur le lien "Contenu
+$\rightarrow$ Ajouter du contenu" du menu d'administration. Vous devez
+alors choisir le type de contenu que vous souhaitez utiliser, et vous
+serez ensuite dirigés sur le formulaire d'édition du contenu. Ce
+formulaire est relativement similaire d'un type de contenu à un
+autre. Nous allons prendre comme exemple le type de contenu "Article",
+mais ce qui est dit ici est transposable aux autres types de contenu.
 
-![Le formulaire d'édition d'articles](img/edition_article.png)\ 
+![Le formulaire d'édition d'articles](img/edition_article.png)
 
 Voici une description des différents champs d'édition disponible dans
 le formulaire d'édition des articles :
@@ -142,7 +142,7 @@ côté des boutons *sauvegarder* et *pré-visualiser* : *supprimer*.
 Parmi les paramètres en bas de page, vous trouvez la partie
 *Informations sur les révisions*.
 
-![Les paramètres de révision](img/revisions.png)\ 
+![Les paramètres de révision](img/revisions.png)
 
 Cocher l'option *Créer une nouvelle révision* dit à Drupal d'archiver
 la version actuelle du contenu avant de faire une modification. Les
@@ -199,7 +199,7 @@ en page les contenus. Voici une listes des différents boutons de cet
 éditeur ainsi que des descriptions de leurs fonctions, de gauche à
 droite :
 
-![L'éditeur de texte avancé](img/editeur.png)\ 
+![L'éditeur de texte avancé](img/editeur.png)
 
 * **Gras et italique :** Ces boutons appliquent les styles gras et
     italiques à la portion de texte sélectionnée.
@@ -294,7 +294,7 @@ site. Cette page ressemble beaucoup à celle qui liste l'ensemble des
 contenus. Elle permet de filtrer les utilisateurs, et de les éditer en
 masse.
 
-![La page "Personnes"](img/personnes.png)\ 
+![La page "Personnes"](img/personnes.png)
 
 Au sommet de la page, vous trouvez un lien *Ajouter un utilisateur*,
 que vous pouvez utiliser pour ajouter de nouveaux utilisateurs. Le
@@ -366,3 +366,44 @@ Le site de la SRFB utilise 5 rôles différents :
     dangereux. Il ne devrait être attribué qu'à un nombre limité de
     personnes de confiance. De grand pouvoirs impliquent de grandes
     responsabilités !
+
+# Les blocs
+
+![Les blocs sont chacun placés dans une des régions du site. La page *Aperçu des régions des blocs* accessible depuis un lien en haut de la page d'administration des blocs montre les régions disponibles sur le site.](img/demo_blocs.png)
+
+Toutes les pages de l'espace public du site ont une structure
+relativement similaire. Au centre de la page se trouve le contenu
+principal, et tout autour se trouvent différents *blocs*, placés dans
+des *régions* de la page. Ces blocs peuvent être déplacé, et on peux
+ajouter et supprimer des blocs.
+
+On peux voir une liste des blocs actuellement actifs sur le site sur
+la page "Structure $\rightarrow$ Blocs" du menu d'administration. Les blocs sont
+groupés selon la région dans laquelle ils sont placés. Il y a aussi
+une série de blocs dans la section *Désactivé*, ce qui veux dire qu'il
+n'apparaissent pas sur le site.
+
+Depuis cette page, vous pouvez déplacer les blocs, les activer ou
+désactiver, et les configurer. On peux accéder au formulaire de
+configuration de chaque bloc en suivant le lien *configurer*.
+
+Ce formulaire permet d'éditer différentes propriétés du bloc :
+
+* **Titre du bloc :** Supplante le titre par défaut du bloc. Entrer `<none>`
+  pour ne pas afficher de titre ou laisser vide pour garder le titre
+  par défaut du bloc.
+* **Paramètres de la région :** Offre une façon alternative d'assigner un
+  bloc à une région.
+* **Paramètres de visibilité :** Ces options déterminent les conditions
+  décidant si un bloc est visible ou non.
+  * **Pages :** Permet d'afficher ou de masquer le bloc suivant la page
+    sur laquelle on se trouve.
+  * **Langues :** Permet de configurer les paramètres linguistiques du
+    bloc. Ces paramètres seront décrit plus tard, dans la section
+    "Multilinguisme".
+  * **Types de contenu :** Permet de n'afficher le bloc que pour certains
+    type de contenu.
+  * **Rôles :** Permet de ne montrer le bloc qu'aux utilisateurs ayant un
+    rôle donné.
+  * **Utilisateurs :** Activer cette option permet aux utilisateurs du
+    site de décider eux-même si le bloc doit être affiché ou non.
