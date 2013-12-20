@@ -4,7 +4,7 @@
 Le site de la SRFB est basé sur le logiciel Drupal. C'est est un système
 de publication pour le web. C'est un programme, ou application web,
 utilisé pour gérer le contenu d'un site web. Ce manuel vous présente
-les bases de l'utilisation de ce logiciel pour gérer le contenu de
+les bases de l'utilisation de ce logiciel pour gérer
 votre site web.
 
 Même si la gestion des contenus avec Drupal est pensée pour être la
