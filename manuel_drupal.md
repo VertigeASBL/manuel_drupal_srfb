@@ -417,7 +417,7 @@ particulière. Quand on crée un nouveau contenu, on ne décide pas *où*
 celui-ci doit apparaître.
 
 La façon la plus directe de structurer les contenus du site est
-d'utiliser les *menus*, qui sont des liens organisé selon une
+d'utiliser les *menus*, qui sont des liens organisés selon une
 structure arborescente.
 
 Le site de la SRFB utilise deux menus, qui sont chacun décliné dans
