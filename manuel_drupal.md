@@ -115,11 +115,11 @@ le formulaire d'édition des articles :
     editor)*"
 
 * **Image :** Permet de télé-verser une image, qui sera affichée à
-    côté de l'article. On peux associer cette image à un texte
-    alternatif qui sera affiché dans le cas où l'image est absente. Il
-    est bon de saisir un texte alternatif pour chaque image, c'est
-    important pour les moteurs de recherche, ainsi que pour les
-    personnes malvoyantes qui utilisent un lecteur d'écran.
+    côté de l'article. On peux l'associer à un texte alternatif qui
+    sera affiché dans le cas où l'image est absente. Il est bon de
+    saisir un texte alternatif pour chaque image, c'est important pour
+    les moteurs de recherche, ainsi que pour les personnes malvoyantes
+    qui utilisent un lecteur d'écran.
 
 * En bas du formulaire d'édition se trouvent toute une série de
   paramètres concernant les menus, commentaires, etc. Ces paramètres
@@ -226,7 +226,7 @@ droite :
         pré-remplissant le destinataire avec l'adresse spécifiée dans
         le lien. L'onglet cible permet de forcer le lien à s'ouvrir
         dans une nouvelle fenêtre.
-* **Ancre** permet de créer une ancre. Un ancre est un point de repère
+* **Ancre** permet de créer une ancre. Une ancre est un point de repère
     à l'intérieur du texte. On peux créer des liens qui pointent vers
     des ancres pour permettre au visiteur de se repérer plus
     facilement dans des pages très longues. Une page affichant le
