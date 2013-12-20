@@ -227,7 +227,7 @@ droite :
         pré-remplissant le destinataire avec l'adresse spécifiée dans
         le lien. L'onglet cible permet de forcer le lien à s'ouvrir
         dans une nouvelle fenêtre.
-* **Ancre** permet de créer une ancre. Un ancre est un point de repère
+* **Ancre** permet de créer une ancre. Une ancre est un point de repère
     à l'intérieur du texte. On peux créer des liens qui pointent vers
     des ancres pour permettre au visiteur de se repérer plus
     facilement dans des pages très longues. Une page affichant le
