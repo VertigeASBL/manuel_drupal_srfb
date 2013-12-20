@@ -1,11 +1,10 @@
 % Manuel du site de la SRFB
 % Vertige ASBL
 
-Le site de la SRFB est basé sur le logiciel Drupal. C'est est un système
+Le site de la SRFB est basé sur le logiciel Drupal, qui est un système
 de publication pour le web. C'est un programme, ou application web,
 utilisé pour gérer le contenu d'un site web. Ce manuel vous présente
-les bases de l'utilisation de ce logiciel pour gérer
-votre site web.
+les bases de l'utilisation de ce logiciel pour gérer votre site web.
 
 Même si la gestion des contenus avec Drupal est pensée pour être la
 plus simple et intuitive possible, il n'en reste pas moins un logiciel
