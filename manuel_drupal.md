@@ -26,19 +26,19 @@ renseigné un nom d'utilisateur et un mot de passe valide, vous verrez
 le menu d'administration, qui se trouve au sommet de la page.
 
 Vous pouvez ensuite vous rendre sur la page principale de gestion du
-contenu, en cliquant sur le lien "Contenu" dans le menu
+contenu, en cliquant sur le lien "*Contenu*" dans le menu
 d'administration. Cette page affiche une liste des contenus déjà
 encodés sur le site :
 
-![La page "Contenu"](img/page_contenu.png)
+![La page "*Contenu*"](img/page_contenu.png)
 
 Le site de la SRFB utilise les types de contenu suivants :
 
 * **Articles :** Ce type de contenu permet d'alimenter la rubrique
-    "Actualités" du site.
+    "*Actualités*" du site.
 
-* **Documents utiles :** Permet d'alimenter la partie "Documents
-    téléchargeables" du site. Les documents sont la plupart du temps
+* **Documents utiles :** Permet d'alimenter la partie "*Documents
+    téléchargeables*" du site. Les documents sont la plupart du temps
     des fichiers pdf, mais on pourrait utiliser n'importe quel type de
     fichiers. Tous les éléments de contenus de ce type se retrouvent
     automatiquement indexés dans le moteur de recherche spécifique aux
@@ -64,7 +64,7 @@ Le site de la SRFB utilise les types de contenu suivants :
 
 * **Produit :** Ce type de contenu permet d'ajouter des éléments dans
     la boutique, mais sur le site de la SRFB, on ne l'utilise pas. On
-    utilise plutôt le type de contenu "Livre", qui permet d'encoder
+    utilise plutôt le type de contenu *Livre*, qui permet d'encoder
     des valeurs propres aux livres (n$^{\circ}$ de référence,
     dimensions, etc.)
 
@@ -78,12 +78,12 @@ Le site de la SRFB utilise les types de contenu suivants :
 
 ## Créer du contenu
 
-On peux créer de nouveau contenus en cliquant sur le lien "Contenu
-$\rightarrow$ Ajouter du contenu" du menu d'administration. Vous devez
+On peux créer de nouveau contenus en cliquant sur le lien "*Contenu
+$\rightarrow$ Ajouter du contenu*" du menu d'administration. Vous devez
 alors choisir le type de contenu que vous souhaitez utiliser, et vous
 serez ensuite dirigés sur le formulaire d'édition du contenu. Ce
 formulaire est relativement similaire d'un type de contenu à un
-autre. Nous allons prendre comme exemple le type de contenu "Article",
+autre. Nous allons prendre comme exemple le type de contenu *Article*,
 mais ce qui est dit ici est transposable aux autres types de contenu.
 
 ![Le formulaire d'édition d'articles](img/edition_article.png)
@@ -95,31 +95,32 @@ le formulaire d'édition des articles :
     page de l'article sur le site. Il sera également le titre affiché
     dans le barre de titre du navigateur.
 
-* **Tags :** Ce champs permet d'associer un ou plusieurs mots-clés à
+* **Tags :** Ce champ permet d'associer un ou plusieurs mots-clés à
     l'article. Drupal va suggérer des mots-clés existant, tout en
     permettant d'en ajouter si besoin est. Pour associer plusieurs
     mots-clés à l'article, il faut les séparer par des virgules.
 
-* **Modifier le résumé/masquer le résumé :** En cliquant "modifier le
-    résumé, vous faites apparaître une boîte dans laquelle vous pouvez
+* **Modifier le résumé/masquer le résumé :** En cliquant "*modifier le
+    résumé*", vous faites apparaître une boîte dans laquelle vous pouvez
     saisir un résumé de l'article. Ce résumé sera affiché dans le bloc
-    "Toutes les actualités" de la page d'accueil. Si on ne spécifie
+    "*Toutes les actualités*" de la page d'accueil. Si on ne spécifie
     pas de résumé, Drupal en génère un automatiquement en prenant les
-    premiers mots du champs "body".
+    premiers mots du champ *Body*.
 
 * **Body :** Ce champ est utilisé pour le texte principal de
-    l'article. Il utilise un éditeur avancé qui sera décrit plus loin.
+    l'article. Il utilise un éditeur de texte avancé qui sera décrit
+    plus loin.
 
 * **Format de texte :** Ce champ n'est pas utile sur le site de la
-    SRFB. Ce champ doit toujours être sur la valeur "Full HTML (with
-    editor)"
+    SRFB. Ce champ doit toujours être sur la valeur "*Full HTML (with
+    editor)*"
 
 * **Image :** Permet de télé-verser une image, qui sera affichée à
     côté de l'article. On peux associer cette image à un texte
     alternatif qui sera affiché dans le cas où l'image est absente. Il
-    est important de saisir un texte alternatif pour chaque image pour
-    les moteurs de recherche, ainsi que pour les personnes malvoyantes
-    qui utilisent un lecteur d'écran.
+    est bon de saisir un texte alternatif pour chaque image, c'est
+    important pour les moteurs de recherche, ainsi que pour les
+    personnes malvoyantes qui utilisent un lecteur d'écran.
 
 * En bas du formulaire d'édition se trouvent toute une série de
   paramètres concernant les menus, commentaires, etc. Ces paramètres
@@ -132,25 +133,25 @@ le formulaire d'édition des articles :
 ## Édition des contenus et gestion des versions
 
 Une page d'article, tout comme les pages des autres type de contenus,
-possèdent deux onglets : *voir* et *modifier*. En cliquant l'onglet
-*modifier*, vous pouvez ouvrir à nouveau le formulaire d'édition de
+possèdent deux onglets : "*voir*" et "*modifier*". En cliquant l'onglet
+"*modifier*", vous pouvez ouvrir à nouveau le formulaire d'édition de
 contenu, qui est identique à celui de création de contenu, à
 l'exception de deux choses. Le formulaire est pré-rempli avec le
 contenu de l'article en question, et il y a un bouton supplémentaire à
-côté des boutons *sauvegarder* et *pré-visualiser* : *supprimer*.
+côté des boutons "*sauvegarder*" et "*pré-visualiser*" : "*supprimer*".
 
 Parmi les paramètres en bas de page, vous trouvez la partie
-*Informations sur les révisions*.
+"*Informations sur les révisions*".
 
 ![Les paramètres de révision](img/revisions.png)
 
-Cocher l'option *Créer une nouvelle révision* dit à Drupal d'archiver
+Cocher l'option "*Créer une nouvelle révision*" dit à Drupal d'archiver
 la version actuelle du contenu avant de faire une modification. Les
-différentes versions seront affichées dans un onglet *Révisions*. Un
+différentes versions seront affichées dans un onglet "*Révisions*". Un
 clic sur cet onglet permet de voir les différentes versions
 enregistrées, de revenir à une version antérieure ou si nécessaire
 d'en effacer. Revenir à une version antérieure n'efface rien, cela
-place simplement une nouvelle version qui est une copie de la version
+crée simplement une nouvelle version qui est une copie de la version
 à laquelle on souhaite revenir.
 
 ## Autres paramètres des contenus
@@ -193,9 +194,9 @@ paramètres :
 
 ## L'éditeur de texte avancé
 
-Le champ "body" des articles, ainsi que d'autres champs d'autres types
+Le champ "*Body*" des articles, ainsi que d'autres champs d'autres types
 de contenu utilisent un éditeur de texte avancé, qui permet de mettre
-en page les contenus. Voici une listes des différents boutons de cet
+en page les contenus. Voici une liste des différents boutons de cet
 éditeur ainsi que des descriptions de leurs fonctions, de gauche à
 droite :
 
@@ -212,15 +213,15 @@ droite :
 * **Annuler/Rétablir :** Permet d'annuler ou de rétablir la dernière
     action effectuée.
 * **Lien/Supprimer le lien :** Permet de créer/supprimer des liens
-    hypertextes. Cliquer sur le bouton *lien* ouvre un boîte de
+    hypertextes. Cliquer sur le bouton "*lien*" ouvre un boîte de
     dialogue qui permet de choisir l'adresse vers laquelle le lien
-    pointera. Le paramètre *Type de lien* offre trois options :
+    pointera. Le paramètre "*Type de lien*" offre trois options :
     * **URL** pour créer un lien hypertexte vers une page autre que la
         page courante.
     * **Ancre** pour créer un lien vers une ancre de la page en
         cours. Le formulaire propose alors une liste des ancres
         existant dans la page. Il faut donc commencer par créer une
-        ancre, et lui assigner un lien.
+        ancre, et lui assigner un lien ensuite.
     * **Email** pour créer un lien vers une adresse email. Ce lien
         ouvrira le logiciel de mail par défaut chez l'utilisateur en
         pré-remplissant le destinataire avec l'adresse spécifiée dans
@@ -229,15 +230,16 @@ droite :
 * **Ancre** permet de créer une ancre. Un ancre est un point de repère
     à l'intérieur du texte. On peux créer des liens qui pointent vers
     des ancres pour permettre au visiteur de se repérer plus
-    facilement dans des pages très longues. On peux par exemple placer
-    des ancres sur les titres des documents et placer des liens vers
-    ces ancres sur les entrées d'une table des matières.
+    facilement dans des pages très longues. Une page affichant le
+    contenu d'un livre pourrait par exemple placer des ancres sur les
+    titres des chapitres et placer des liens vers ces ancres sur les
+    entrées de la table des matières.
 * **Image** permet de gérer les propriétés des images insérées dans le
     texte (mais ne permet pas d'en insérer, il faut utiliser le bouton
-    *Ajouter un média* pour ça). Permet d'ajouter un texte de
-    remplacement (cf. partie image dans la section "création de
-    contenu").  On peut aussi y redimensionner une image, et définir
-    son alignement par rapport au texte.  L'onglet *lien* permet à
+    "*Ajouter un média*" pour ça). Permet d'ajouter un texte de
+    remplacement (cf. partie image dans la section "*création de
+    contenu*"). On peut aussi y redimensionner une image, et définir
+    son alignement par rapport au texte. L'onglet "*lien*" permet à
     l'image de fonctionner comme lien.
 * **Couleur de texte** permet de donner une couleur au texte
     sélectionné.
@@ -248,12 +250,12 @@ droite :
     sites permettant d'inclure du contenu, comme par exemple les sites
     de partage de vidéo.
 * **Copier, Couper, Coller** fonctionnent comme dans n'importe quel
-    autre programme. La fonction *coller depuis Word* permet de coller
+    autre programme. La fonction "*coller depuis Word*" permet de coller
     du texte que l'on a copié dans un document Word en préservant la
     mise en forme autant que possible. Parfois on ne souhaite pas
     garder le formatage mais copier le texte de la façon la plus
-    simple possible. On peut alors utiliser le bouton *coller sans
-    mise en forme*.
+    simple possible. On peut alors utiliser le bouton "*coller sans
+    mise en forme*".
 * **Afficher les blocs** permet d'afficher la structures des blocs
     HTML générés par l'éditeur.
 * **Les menus formats et tailles de polices** permettent de choisir le
@@ -269,34 +271,34 @@ droite :
     remplacer automatiquement du texte dans le contenu.
 * **Flash/IFrame** permettent d'insérer du contenu Flash ou des
     IFrame. En règle générale, il est préférable de d'insérer
-    directement le code HTML avec la fonction *Source* quand on
+    directement le code HTML avec la fonction "*Source*" quand on
     souhaite insérer du contenu fourni par un site tiers.
 * **Ajouter un média** permet d'insérer un image ou un
     document. Propose trois options différentes pour le
-    faire. L'option *Transférer* permet d'envoyer sur le serveur un
-    fichier qui se trouve sur votre ordinateur. L'option *Web* permet
-    d'inclure du contenu du site *youtube*, et *Bibliothèque*
+    faire. L'option "*Transférer*" permet d'envoyer sur le serveur un
+    fichier qui se trouve sur votre ordinateur. L'option "*Web*" permet
+    d'inclure du contenu du site youtube, et "*Bibliothèque*"
     d'inclure un document déjà présent sur le site, par exemple parce
     qu'il est utilisé dans un autre contenu.
 * **Séparer l'accroche et le corps du contenu** propose une façon de
-    définir le résumé du contenu (cf. section "créer du contenu"). Ce
+    définir le résumé du contenu (cf. section "*créer du contenu*"). Ce
     bouton insère une barre horizontale dans le contenu. Le résumé est
     alors défini par le texte précédant cette barre.
 
 # Utilisateurs et permissions
 
 Cette section explique comment gérer les comptes utilisateurs du site,
-les créer et décider ce qu'ils ont l'autorisation de faire.
+les créer et décider de ce qu'ils ont l'autorisation de faire.
 
-Le lien *Personnes* de la barre d'administration vous emmène vers une
+Le lien "*Personnes*" de la barre d'administration vous emmène vers une
 page listant tout les comptes utilisateurs enregistrés sur votre
 site. Cette page ressemble beaucoup à celle qui liste l'ensemble des
 contenus. Elle permet de filtrer les utilisateurs, et de les éditer en
 masse.
 
-![La page "Personnes"](img/personnes.png)
+![La page "*Personnes*"](img/personnes.png)
 
-Au sommet de la page, vous trouvez un lien *Ajouter un utilisateur*,
+Au sommet de la page, vous trouvez un lien "*Ajouter un utilisateur*",
 que vous pouvez utiliser pour ajouter de nouveaux utilisateurs. Le
 formulaire pour créer des comptes utilisateurs est très similaire au
 formulaire qui permet d'éditer un utilisateur existant :
@@ -304,8 +306,8 @@ formulaire qui permet d'éditer un utilisateur existant :
 * **Nom d'utilisateur :** Le nom du compte utilisateur. Il n'est pas
     possible d'avoir deux comptes utilisateur avec le même nom.
 * **Adresse de courriel :** L'adresse de courriel de
-    l'utilisateur. Cet adresse est utilisée par la fonction "mot de
-    passe oublié", il donc important que cette adresse soit
+    l'utilisateur. Cet adresse est utilisée par la fonction "*mot de
+    passe oublié*", il donc important que cette adresse soit
     exacte. Tout comme pour le nom d'utilisateur, cette adresse doit
     être unique.
 * **Mot de passe/confirmer mot de passe :** Le mot de passe, demandé
@@ -314,12 +316,12 @@ formulaire qui permet d'éditer un utilisateur existant :
     sont cryptés avant d'être stockés. Si vous saisissez un mot de
     passe trop court ou trop simple, Drupal vous avertira mais ne vous
     empêchera pas de l'utiliser.
-* **Statut :** Les utilisateurs dont le statut est *bloqué* ne peuvent
+* **Statut :** Les utilisateurs dont le statut est "*bloqué*" ne peuvent
     pas se connecter au site.
 * **Rôles :** Montre ou modifie les *rôles* de l'utilisateur (plus de
     détails sur les rôles dans la prochaine section). Tous les
-    utilisateurs ont automatiquement le rôle d'"utilisateur
-    authentifié" à partir du moment où il se connectent au site avec
+    utilisateurs ont automatiquement le rôle d'*utilisateur
+    authentifié* à partir du moment où il se connectent au site avec
     leur login/mots de passe.
 * **Paramètres des courriels :** Permet de choisir le format des
     emails automatiques.
@@ -342,17 +344,18 @@ formulaire qui permet d'éditer un utilisateur existant :
 Le site de la SRFB utilise 5 rôles différents :
 
 * **Utilisateur anonyme :** Ce rôle est attribué automatiquement à
-    tous les visiteurs du site. Il n'ont presque aucun droits, à part
+    tous les visiteurs du site. Ils n'ont presque aucun droit, à part
     celui de voir le site.
 * **Utilisateur authentifié :** Ce rôle est attribué automatiquement
-    aux visiteurs qui se sont connecté avec un login/mot de passe. En
-    plus du droit de voir le site, il peuvent remplir les formulaires
-    sans passer par les captchas, voir leurs propres factures.
+    aux visiteurs qui se sont connecté avec un login/mot de passe
+    valide. En plus du droit de voir le site, il peuvent remplir les
+    formulaires sans passer par les captchas, voir leurs propres
+    factures.
 * **Gestionnaire Boutique :** Donnez ce rôle aux personnes qui doivent
     gérer la boutique en ligne. Ces utilisateurs peuvent :
     * Accéder au menu d'administration.
-    * Créer, modifier et supprimer les contenus de type "Livre" et
-      "Produit".
+    * Créer, modifier et supprimer les contenus de type *Livre* et
+      *Produit*.
     * Gérer les clients, les commandes, les factures et administrer la
       boutique.
 * **Éditeur :** Donnez ce rôle aux personnes qui vont participer au
@@ -378,14 +381,14 @@ des *régions* de la page. Ces blocs peuvent être déplacé, et on peux
 ajouter et supprimer des blocs.
 
 On peux voir une liste des blocs actuellement actifs sur le site sur
-la page "Structure $\rightarrow$ Blocs" du menu d'administration. Les blocs sont
-groupés selon la région dans laquelle ils sont placés. Il y a aussi
-une série de blocs dans la section *Désactivé*, ce qui veux dire qu'il
-n'apparaissent pas sur le site.
+la page "*Structure $\rightarrow$ Blocs*" du menu
+d'administration. Les blocs sont groupés selon la région dans laquelle
+ils sont placés. Il y a aussi une série de blocs dans la section
+"*Désactivé*", ce qui veux dire qu'il n'apparaissent pas sur le site.
 
 Depuis cette page, vous pouvez déplacer les blocs, les activer ou
 désactiver, et les configurer. On peux accéder au formulaire de
-configuration de chaque bloc en suivant le lien *configurer*.
+configuration de chaque bloc en suivant le lien "*configurer*".
 
 Ce formulaire permet d'éditer différentes propriétés du bloc :
 
@@ -400,7 +403,7 @@ Ce formulaire permet d'éditer différentes propriétés du bloc :
     sur laquelle on se trouve.
   * **Langues :** Permet de configurer les paramètres linguistiques du
     bloc. Ces paramètres seront décrit plus tard, dans la section
-    "Multilinguisme".
+    "*Multilinguisme*".
   * **Types de contenu :** Permet de n'afficher le bloc que pour certains
     type de contenu.
   * **Rôles :** Permet de ne montrer le bloc qu'aux utilisateurs ayant un
@@ -410,8 +413,8 @@ Ce formulaire permet d'éditer différentes propriétés du bloc :
 
 # Les menus
 
-Par défaut, le contenu sur un site Drupal ne suit aucune structure en
-particulier. Quand on crée un nouveau contenu, on ne décide pas *où*
+Par défaut, le contenu sur un site Drupal ne suit aucune structure
+particulière. Quand on crée un nouveau contenu, on ne décide pas *où*
 celui-ci doit apparaître.
 
 La façon la plus directe de structurer les contenus du site est
@@ -419,13 +422,13 @@ d'utiliser les *menus*, qui sont des liens organisé selon une
 structure arborescente.
 
 Le site de la SRFB utilise deux menus, qui sont chacun décliné dans
-les trois langues : Le "menu de gauche" et le "menu principal".
+les trois langues : Le *menu de gauche* et le *menu principal*.
 
 ![La liste des menus du site de la SRFB](img/menus.png)
 
 Comme pour les autres tâches d'administration, il y a une page qui
-permet de gérer les menus du site globalement : la page "Structure
-$\rightarrow$ Menus". Cette page présente une liste des différents
+permet de gérer les menus du site globalement : la page "*Structure
+$\rightarrow$ Menus*". Cette page présente une liste des différents
 menus du site. Chaque menu propose trois options :
 
 * **lister les liens :** Affiche un liste des liens du menu en
@@ -451,8 +454,8 @@ Sur le site de la SRFB, on ne peux pas traduire directement le
 contenu. Si l'on souhaite qu'un article apparaisse en français et en
 néerlandais, on doit créer deux articles : un en français et l'autre
 en néerlandais. Chaque formulaire d'édition de contenu propose un
-champ *langue*, qu'on peut utiliser ce champ pour spécifier la langue
-du contenu. Si ce champ prend la valeur *Indépendant de la langue*, le
+champ "*langue*", qu'on peut utiliser ce champ pour spécifier la langue
+du contenu. Si ce champ prend la valeur "*Indépendant de la langue*", le
 contenu s'affichera pour toutes les langues.
 
 ## Traduire les menus
@@ -461,9 +464,9 @@ La traduction des menus fonctionne de façon similaire. Pour afficher
 un menu dans une autre langue, on crée un autre menu qui ne contiendra
 que des liens vers des contenus dans cette langue.
 
-Le formulaire d'édition de menu possède une section *options
-multilingue*. Pour les menus du site de la SRFB, l'option *mode de
-traduction* doit être réglée sur *Langue fixe*. On peux alors choisir
+Le formulaire d'édition de menu possède une section "*options
+multilingue*". Pour les menus du site de la SRFB, l'option "*mode de
+traduction*" doit être réglée sur "*Langue fixe*". On peux alors choisir
 la langue avec le champ langue, qui fonctionne de la même façon pour
 les menus que pour les contenus.
 
@@ -474,10 +477,10 @@ menus en ce qui concerne le multilinguisme. Chaque bloc peut être
 affiché dans plusieurs langues, il n'est donc pas nécessaire de créer
 un nouveau bloc pour ajouter une langue.
 
-Le formulaire d'édition des blocs propose une section *Langues* dans
+Le formulaire d'édition des blocs propose une section "*Langues*" dans
 les *Paramètres de visibilité*. Pour rendre un bloc traduisible, il
-suffit de cocher la case *Rendre ce bloc traduisible*. Après avoir
-enregistré ce paramètre, le formulaire proposera un onglet *Traduire*
+suffit de cocher la case "*Rendre ce bloc traduisible*". Après avoir
+enregistré ce paramètre, le formulaire proposera un onglet "*Traduire*"
 au sommet de la page. On pourra alors éditer les traductions de
 du bloc depuis cet onglet.
 
@@ -485,15 +488,15 @@ du bloc depuis cet onglet.
 
 Certains (rares) élément du site ne sont pas traduisibles avec les
 méthodes décrites ci-dessus. C'est par exemple le cas du titre du bloc
-*Toutes les actualités* de la page d'accueil.
+"*Toutes les actualités*" de la page d'accueil.
 Drupal propose une solution pour ces éléments qui ne sont ni du
 contenu, ni des menus, ni des blocs : il faut se rendre sur la page
-"Configuration $\rightarrow$ Régionalisation et langue $\rightarrow$
-Traduire l'interface $\rightarrow$ Traduire".
+"*Configuration $\rightarrow$ Régionalisation et langue $\rightarrow$
+Traduire l'interface $\rightarrow$ Traduire*".
 
 ![La page de traduction de l'interface](img/traduction_interface.png)
 
 Cette page permet de retrouver une chaîne de caractères et de la
-traduire. Dans le cas où l'on souhaite traduire le titre *Toutes les
-actualités*, il suffit de trouver cette chaîne de caractères dans la
+traduire. Dans le cas où l'on souhaite traduire le titre "*Toutes les
+actualités*", il suffit de trouver cette chaîne de caractères dans la
 liste et de l'éditer.
