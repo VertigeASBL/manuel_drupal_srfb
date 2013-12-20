@@ -20,7 +20,7 @@ article de blog, livre, évènement, galerie d'images etc. Ces contenus
 peuvent être créés, édités ou supprimés depuis *l'espace
 d'administration*. Vous pouvez vous connecter à l'espace
 d'administration en suivant ce lien :
-[http://www.srfb.be/user](http://www.srfb.be/user).  Après avoir
+[http://www.srfb.be/user](http://www.srfb.be/user). Après avoir
 renseigné un nom d'utilisateur et un mot de passe valide, vous verrez
 le menu d'administration, qui se trouve au sommet de la page.
 
@@ -91,7 +91,7 @@ Voici une description des différents champs d'édition disponible dans
 le formulaire d'édition des articles :
 
 * **Titre :** Le titre de l'article. Il sera visible en haut de la
-    page de l'article sur le site. Il sera également le titre affiché
+    page de l'article sur le site. Il sera également affiché
     dans le barre de titre du navigateur.
 
 * **Tags :** Ce champ permet d'associer un ou plusieurs mots-clés à
@@ -115,7 +115,7 @@ le formulaire d'édition des articles :
     editor)*"
 
 * **Image :** Permet de télé-verser une image, qui sera affichée à
-    côté de l'article. On peux associer cette image à un texte
+    côté de l'article. On peux l'associer à un texte
     alternatif qui sera affiché dans le cas où l'image est absente. Il
     est bon de saisir un texte alternatif pour chaque image, c'est
     important pour les moteurs de recherche, ainsi que pour les
@@ -226,7 +226,7 @@ droite :
         pré-remplissant le destinataire avec l'adresse spécifiée dans
         le lien. L'onglet cible permet de forcer le lien à s'ouvrir
         dans une nouvelle fenêtre.
-* **Ancre** permet de créer une ancre. Un ancre est un point de repère
+* **Ancre** permet de créer une ancre. Une ancre est un point de repère
     à l'intérieur du texte. On peux créer des liens qui pointent vers
     des ancres pour permettre au visiteur de se repérer plus
     facilement dans des pages très longues. Une page affichant le
