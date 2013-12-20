@@ -21,7 +21,7 @@ article de blog, livre, évènement, galerie d'images etc. Ces contenus
 peuvent être créés, édités ou supprimés depuis *l'espace
 d'administration*. Vous pouvez vous connecter à l'espace
 d'administration en suivant ce lien :
-[http://www.srfb.be/user](http://www.srfb.be/user).  Après avoir
+[http://www.srfb.be/user](http://www.srfb.be/user). Après avoir
 renseigné un nom d'utilisateur et un mot de passe valide, vous verrez
 le menu d'administration, qui se trouve au sommet de la page.
 
